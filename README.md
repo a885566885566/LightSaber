@@ -15,7 +15,7 @@ We made lots of efforts to generate the gcode from gerber files, because most CA
 
 There are serveral complicated step to generate the pcb files.
 1. **Generate Gcode From FlatCAM:** Download the flatCAM from http://flatcam.org/. Load the gerber file and output the gcodes, including top_layer, drill and outline.
-2. **Translate Gcode To Fit Roland**: Because the gcode we obtained from flatCAM is not compatible with the CNC mechine we used, we need to translate it into a correct format, and write a python script called ```gcode_trans.py```  to do this.
+2. **Translate Gcode To Fit Roland**: Because the gcode we obtained from flatCAM is not compatible with the CNC mechine we used, we need to translate it into a correct format. We wrote a python script called ```gcode_trans.py```  to do this.
 
 ## Sound Effects
-These effects should be copied into the SD card, so that arduino can read the HEX audio files.
+Copy these effects into the SD card, so that arduino can read the HEX audio files from it.
